@@ -23,15 +23,10 @@
 int main(int argc, const char * argv[])
 {
 
-  int a = atoi(argv[1]);
-  printf("%d",a);  
-  printf("%d", argc);
-  if(argc > 0){
-     for (int i = 0; i < a; i++){
+  if(argc > 1){
        robotPrintAscii();
        dalekPrintAscii();
        robotPrintMessage();
-      }
   } 
   else{
     robotPrintAscii();
