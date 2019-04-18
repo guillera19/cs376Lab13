@@ -4,7 +4,15 @@
  * A file that contains the supporting functions for main() in the
  * ~/robots example source for Software Engineering.
  *
+<<<<<<< HEAD
  * @author Tanya L. Crenshaw, Nathan Schmedake, Kayla Moore
+=======
+<<<<<<< HEAD
+ * @author Kama Simon
+=======
+ * @author Tanya L. Crenshaw, Nathan Schmedake, Avery
+>>>>>>> f235b1e8fcac7e2391710e854027d35da39fe7df
+>>>>>>> 3e1dd6c25e5b2211808893e9ecd9906ff9d24922
  * @since August 2013
  *
  */
@@ -20,7 +28,7 @@
  */
 void robotPrintMessage(void)
 {
-  printf("\n\nI really love robots!\n\n");
+  printf("\n\nRobots are scary!\n\n");
   return;
 }
 
@@ -35,8 +43,18 @@ void robotPrintAscii(void)
   blank = blank +30;
   printf("\n\n"
 	 "UWR: Unidentified Wheeled Robot\n"
+<<<<<<< HEAD
 	 "%s    i_i    \n"
 	 "%s   [*_*]   \n"
+=======
+<<<<<<< HEAD
+	 "%s    V_V    \n"
+	 "%s   [0_0]   \n"
+=======
+	 "%s    !_!    \n"
+	 "%s   [!_!]   \n"
+>>>>>>> f235b1e8fcac7e2391710e854027d35da39fe7df
+>>>>>>> 3e1dd6c25e5b2211808893e9ecd9906ff9d24922
 	 "%s  /|___|\\ \n"
 	 "%s   d   b   \n",blank, blank, blank, blank);
 
